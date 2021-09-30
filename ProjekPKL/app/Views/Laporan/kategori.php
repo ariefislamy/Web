@@ -1,0 +1,103 @@
+<div class="page-wrapper">
+    <div class="container-fluid">
+    <form action="<?php echo base_url('/Laporan/bulan'); ?>" method="post">
+    <div class="form-group row">
+                                            <div class="col-2">
+                                            <select name="kat" class="custom-select col-12" id="inlineFormCustomSelect">
+                                            <option selected="">Jenis Barang</option>
+                                                <option value="Penumpang">Penumpang</option>
+                                                <option value="Peti Kemas">Peti Kemas</option>
+                                                <option value="General Cargo / Gencar">General Cargo / Gencar</option>
+                                                <option value="Bulk Cargo">Bulk Cargo</option>
+                                                <option value="Unitize">Unitize</option>
+                                                <option value="Curah Cair">Curah Cair</option>
+                                                <option value="Curah Kering">Curah Kering</option>
+                                                <option value="Ternak">Ternak</option>
+                                                <option value="Kendaraan">Kendaraan</option>
+                                                <option value="KLM">Barang KLM</option>
+                                            </select>                                             
+                                            </div>
+                                            <div class="col-2">
+                                            <select name="bulan" class="custom-select col-12" id="inlineFormCustomSelect">
+                                                <option selected="">Bulan</option>
+                                                <option value="Januari">Januari</option>
+                                                <option value="Februari">Februari</option>
+                                                <option value="Maret">Maret</option>
+                                                <option value="April">April</option>
+                                                <option value="Mei">Mei</option>
+                                                <option value="Juni">Juni</option>
+                                                <option value="Juli">Juli</option>
+                                                <option value="Agustus">Agustus</option>
+                                                <option value="September">September</option>
+                                                <option value="Oktober">Oktober</option>
+                                                <option value="November">November</option>
+                                                <option value="Desember">Desember</option>
+                                            </select>                                             
+                                            </div>
+                                            <div class="col-2">
+                                            <select name="tahun" class="custom-select col-12" id="inlineFormCustomSelect">
+                                            <option value="2021">Tahun</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2025">2025</option>
+                                        <option value="2026">2026</option>
+                                        <option value="2027">2027</option>
+                                        <option value="2028">2028</option>
+                                        <option value="2029">2029</option>
+                                        <option value="2030">2030</option>
+                                        <option value="2031">2031</option>
+                                        <option value="2032">2032</option>
+                                        <option value="2033">2033</option>
+                                        <option value="2034">2034</option>
+                                        <option value="2035">2035</option>
+                                        <option value="2036">2036</option>
+                                        <option value="2037">2037</option>
+                                        <option value="2038">2038</option>
+                                        <option value="2039">2039</option>
+                                        <option value="2040">2040</option>
+                                        <option value="2041">2041</option>
+                                        <option value="2042">2042</option>
+                                        <option value="2043">2043</option>
+                                        <option value="2044">2044</option>
+                                        <option value="2045">2045</option>
+                                        <option value="2046">2046</option>
+                                        <option value="2047">2047</option>
+                                        <option value="2048">2048</option>
+                                        <option value="2049">2049</option>
+                                        <option value="2050">2050</option>
+                                            </select>                                             
+                                            </div>
+                                            <button class="btn btn-info">Lihat</button>
+                                        </div>
+                                        </form>
+    
+    <script src="<?php echo base_url() ?>/assets/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="<?php echo base_url() ?>/assets/plugins/bootstrap/js/tether.min.js"></script>
+    <script src="<?php echo base_url() ?>/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="<?php echo base_url() ?>/js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="<?php echo base_url() ?>/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="<?php echo base_url() ?>/js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="<?php echo base_url() ?>/assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="<?php echo base_url() ?>/js/custom.min.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <!-- chartist chart -->
+    <script src="<?php echo base_url() ?>/assets/plugins/chartist-js/dist/chartist.min.js"></script>
+    <script src="<?php echo base_url() ?>/assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
+    <!-- Chart JS -->
+    <script src="<?php echo base_url() ?>/assets/plugins/Chart.js/Chart.min.js"></script>
+    <script src="<?php echo base_url() ?>/js/dashboard2.js"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="<?php echo base_url() ?>/assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
